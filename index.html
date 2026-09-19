@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Rockhouse Consulting</title>
+  <meta name="description" content="Selected engagements and case studies behind Rockhouse Consulting's approach to industrial transformation and AI-enabled decision intelligence.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rockhouse Consulting">
+  <meta property="og:title" content="Portfolio | Rockhouse Consulting">
+  <meta property="og:description" content="What we found, what we changed, and what it was worth: selected work across manufacturing, transportation, health, and digital businesses.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="index">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="https://rockhouse-consulting.com/index.html" aria-label="Rockhouse Consulting home">
+        <img src="https://rockhouse-consulting.com/assets/logo.png" alt="Rockhouse Consulting"
+             onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'wordmark',textContent:'Rockhouse Consulting'}))">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="https://rockhouse-consulting.com/index.html">Home</a>
+        <a href="https://rockhouse-consulting.com/about.html">About</a>
+        <a href="https://rockhouse-consulting.com/services.html">Services</a>
+        <a href="index.html" aria-current="page">Portfolio</a>
+        <a href="https://rockhouse-consulting.com/assessment.html">Assessment</a>
+        <a href="https://rockhouse-consulting.com/insights.html">Insights</a>
+        <a href="https://rockhouse-consulting.com/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero on-dark">
+      <div class="wrap hero-grid">
+        <div>
+          <h1><span>What we found.</span><span>What we changed.</span><span>What it was worth.</span></h1>
+          <p class="lead">Selected engagements and case studies behind Rockhouse's method, across manufacturing, transportation, health, and digital businesses. Every entry is labeled by type, so you know exactly what you are looking at.</p>
+        </div>
+        <aside class="key" aria-labelledby="key-title">
+          <h2 id="key-title">How to read the labels</h2>
+          <dl id="type-key"></dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="proof" aria-label="Rockhouse at a glance">
+      <div class="wrap proof-grid">
+        <div><strong>20+ yrs</strong><span>leading enterprise transformation across North America and East Africa</span></div>
+        <div><strong>$30M+</strong><span>in validated operational improvements across consulting engagements</span></div>
+        <div><strong>39-site</strong><span>network transformation delivered for a global manufacturing client</span></div>
+        <div><strong id="count">9</strong><span>engagements and case studies in this portfolio</span></div>
+      </div>
+    </section>
+
+    <section class="work wrap" id="work" aria-labelledby="work-title">
+      <div class="toolbar">
+        <h2 id="work-title">Selected work</h2>
+        <div class="chips" id="sector-chips" role="group" aria-label="Filter by sector"></div>
+      </div>
+      <p class="filter-note" id="filter-note" hidden></p>
+      <div id="groups"></div>
+      <p class="empty" id="empty" hidden>No work matches this filter. <button class="link-btn" type="button" data-clear>Clear all filters</button></p>
+      <noscript><p class="empty">This portfolio needs JavaScript to list its work. To see case studies, <a href="https://rockhouse-consulting.com/contact.html">contact Rockhouse</a>.</p></noscript>
+    </section>
+
+    <section class="cta-band on-dark" aria-labelledby="cta-title">
+      <div class="wrap">
+        <div>
+          <h2 id="cta-title">Recognize your situation in one of these?</h2>
+          <p>Start with the Readiness Assessment to see which of your four domains is the real constraint, or talk to us directly.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn--primary" href="https://rockhouse-consulting.com/assessment.html">Take the Readiness Assessment</a>
+          <a class="btn btn--ghost" href="https://rockhouse-consulting.com/contact.html">Talk to Rockhouse</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <img src="https://rockhouse-consulting.com/assets/logo.png" alt="Rockhouse Consulting" onerror="this.remove()">
+          <p>Industrial transformation and AI-enabled decision intelligence, out of Houston, TX.</p>
+        </div>
+        <div>
+          <h2>Site</h2>
+          <ul>
+            <li><a href="https://rockhouse-consulting.com/about.html">About</a></li>
+            <li><a href="https://rockhouse-consulting.com/services.html">Services</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="https://rockhouse-consulting.com/assessment.html">Assessment</a></li>
+            <li><a href="https://rockhouse-consulting.com/insights.html">Insights</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="tel:+1-830-600-7997">+1-830-600-7997</a></li>
+            <li><a href="https://rockhouse-consulting.com/contact.html">Send a message</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="legal">&copy; 2026 Rockhouse Consulting. All rights reserved. Houston, TX</p>
+    </div>
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
