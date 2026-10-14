@@ -169,7 +169,7 @@
     var facts = '<div><dt>Engagement type</dt><dd>' + esc(t.label) + '</dd></div>' +
       '<div><dt>Sector</dt><dd>' + esc(p.sector) + '</dd></div>' +
       '<div><dt>Industry</dt><dd>' + esc(p.industry) + '</dd></div>' +
-      (p.role ? '<div><dt>Rockhouse role</dt><dd>' + esc(p.role) + '</dd></div>' : '') +
+      (p.role ? '<div><dt>Role</dt><dd>' + esc(p.role) + '</dd></div>' : '') +
       (p.context ? '<div><dt>Context</dt><dd>' + esc(p.context) + '</dd></div>' : '') +
       (caps ? '<div><dt>Capabilities shown</dt><dd><ul class="caps">' + caps + '</ul></dd></div>' : '');
 
